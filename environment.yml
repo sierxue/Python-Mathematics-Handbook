@@ -1,0 +1,16 @@
+name: pfm
+channels:
+  - defaults
+dependencies:
+  - matplotlib=2.2.2
+  - numpy=1.14.5
+  - pandas=0.23.2
+  - python=3.6.6
+  - sympy=1.1.1
+  - xlrd=1.1.0
+  - openpyxl=2.5.4
+  - pip:
+    - invoke==1.1.0
+    - nbval==0.9.1
+prefix: /home/vince/anaconda3/envs/pfm
+
